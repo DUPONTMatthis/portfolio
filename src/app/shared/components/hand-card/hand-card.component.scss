@@ -1,0 +1,23 @@
+.hand-card {
+  &__container {
+    background-color: #adf0d4;
+    width: auto;
+    height: 96px;
+    border-radius: 4px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-color: #2a7e68;
+    display: flex;
+  }
+
+  &__game-type-label {
+    background-color: #2a7e68;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 8px;
+    margin-left: 4px;
+    margin-top: 4px;
+    border-radius: 9px;
+    color: white;
+  }
+}
